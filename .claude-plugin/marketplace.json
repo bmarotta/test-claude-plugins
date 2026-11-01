@@ -3,8 +3,8 @@
   "owner": { "name": "Bruno Marotta" },
   "plugins": [
     {
-      "name": "github-workflow",
-      "source": "./github-workflow",
+      "name": "gh",
+      "source": "./gh",
       "description": "Implement a GitHub issue end-to-end and run independent PR review loops"
     }
   ]

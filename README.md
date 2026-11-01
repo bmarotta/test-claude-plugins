@@ -11,16 +11,16 @@ Add to a repo's `.claude/settings.json`:
   "extraKnownMarketplaces": {
     "bmarotta": { "source": { "source": "github", "repo": "bmarotta/claude-plugins" } }
   },
-  "enabledPlugins": { "github-workflow@bmarotta": true }
+  "enabledPlugins": { "gh@bmarotta": true }
 }
 ```
 
-Or locally: `/plugin marketplace add bmarotta/claude-plugins` then `/plugin install github-workflow@bmarotta`.
+Or locally: `/plugin marketplace add bmarotta/claude-plugins` then `/plugin install gh@bmarotta`.
 
-## github-workflow
+## gh
 
-- `/github-workflow:implement-issue <n>`
-- `/github-workflow:review-loop <pr>`
+- `/gh:implement-issue <n>`
+- `/gh:review-loop <pr>`
 - agent `pr-reviewer`
 
 Repo-specific build, test, format and lint commands come from each repo's `AGENTS.md` / `CLAUDE.md`, then `package.json`, `composer.json`, `Makefile`. Missing tools are skipped.

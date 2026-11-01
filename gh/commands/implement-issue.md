@@ -17,7 +17,7 @@ Implement GitHub issue $ARGUMENTS. Follow the repo's `AGENTS.md` / `CLAUDE.md` t
    Skip any step the repo doesn't define. Never invent a command. Fix all failures.
 6. If the repo documents e2e or UI checks and the UI changed, run only the affected specs as documented.
 7. Commit, push, and open a PR with `Closes #<number>` in the body. Use the repo's PR template if present.
-8. Run `/github-workflow:review-loop <pr-number>`.
+8. Run `/gh:review-loop <pr-number>`.
 9. Stop and report the PR for approval. Keep fixing merge conflicts and failing checks per `AGENTS.md`.
 
 After approval: address further comments on request. Merge only when asked.
