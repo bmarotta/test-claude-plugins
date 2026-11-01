@@ -1,0 +1,6 @@
+{
+  "name": "github-workflow",
+  "version": "1.0.0",
+  "description": "Implement a GitHub issue end-to-end and run independent PR review loops",
+  "author": { "name": "Bruno Marotta" }
+}
