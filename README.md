@@ -9,7 +9,7 @@ Add to a repo's `.claude/settings.json`:
 ```json
 {
   "extraKnownMarketplaces": {
-    "bmarotta": { "source": { "source": "github", "repo": "bmarotta/claude-plugins" } }
+    "bmarotta": { "source": { "source": "github", "repo": "bmarotta/test-claude-plugins" } }
   },
   "enabledPlugins": { "gh@bmarotta": true }
 }
